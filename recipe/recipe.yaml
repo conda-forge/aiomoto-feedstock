@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: 3.10
-  version: 0.3.0
+  version: "0.4.0"
 
 package:
   name: aiomoto
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/aiomoto/aiomoto-${{ version }}.tar.gz
-  sha256: 92b206faffdf5203d0a8617e8a99c552f32e0914eef2fb1e57d7a7b3d60469f4
+  sha256: 7b318fddc2d2afe8e95b86e854200a4e4de737dede5b6ccb83b7d6e70fb158a4
 
 build:
   number: 0
